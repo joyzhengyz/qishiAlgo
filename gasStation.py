@@ -12,7 +12,6 @@ class Solution(object):
         while left + 1e-6 < right:
             mid = left + (right - left) / 2
             count = 0
-            print "zip(stations, stations[1:])", zip(stations, stations[1:])
             for a, b in zip(stations, stations[1:]):
                 count += math.ceil((b - a) / mid) - 1
                 print a, b, count, math.ceil((b - a) / mid)
