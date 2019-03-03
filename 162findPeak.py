@@ -16,7 +16,6 @@ class Solution(object):
                 r = m
         return l
 
-
 if __name__ == "__main__":
     a = [1,2,3,1]
     # a = [1,9,4,4,4,2,1]
