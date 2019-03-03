@@ -8,6 +8,7 @@ class Solution(object):
         """
         #0.000001 == 1e-6
         left, right = 1e-6, stations[-1] - stations[0]
+        
         while left < right:
             mid = left + (right - left) / 2
             count = 0
